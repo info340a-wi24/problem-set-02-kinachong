@@ -8,59 +8,56 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="container">
-
-<header>
-  <!-- Page Title -->
-  <h1>My Photo Journal</h1>
-  <p>A collection of photographs I like, updated daily</p>
-</header>
-
-<main>
-  <section>
-  <header>
-  <!-- Image Post -->
-  <h2>The Cutest Puppy!</h2>
-  <time datetime="2021-09-01">
-    <p class="time-posted">Posted last year</p>
-  </time>
+  <header><!-- Page Title -->
+    <h1>My Photo Journal</h1>
+    <p>A collection of photographs I like, updated daily</p>
   </header>
+  
+  <main>
+    <!-- Image Post -->
+    <section>
+      <header>
+        <h2>The Cutest Puppy!</h2>
+        <time datetime="2021-09-01">
+          <p class="time-posted">Posted last year</p>
+        </time>
+      </header>
+    <p>OMG I found the <em>CUTEST</em> puppy! Check it out!</p>
+    <p>
+      <img src="img/2959326615_af04f9878a_z.jpg" alt="the Cutest puppy">
+    </p>
+    <p>This picture is <cite>"Blizzard, the pup in Antarctica", by Frank Harvey. From the <a href="https://www.flickr.com/photos/statelibraryofnsw/2959326615/">State Library of NSW</a></cite>.</p>
+  </section>
 
-  <p>OMG I found the <em>CUTEST</em> puppy! Check it out!</p>
-  <p>
-    <img src="img/2959326615_af04f9878a_z.jpg" alt="A cute puppy">
-  </p>
-  <p>This picture is <cite>"Blizzard, the pup in Antarctica", by Frank Harvey. From the <a href="https://www.flickr.com/photos/statelibraryofnsw/2959326615/">State Library of NSW</a></cite>.</p>
-</section>
 
-<section>
-  <!-- Comment Form -->
-  <form>
-    <h2 class="text-small">Leave a comment</h2>
-    <div>
-      <label for="email_input">Email:</label>
+    <!-- Comment Form -->
+    <section>
+    <form>
+      <h2 class="text-small">Leave a comment</h2>
+      <div> 
+        <label for="email_input">Email:</label>
           <input name="email" type="email" id="email_input" placeholder="email@domain.com">
-        </div>
-        <div>  
-          <label for="password_input">Password: </label>
-            <input name="password" type="password" id="password_input">
-    </div>
-    <div>
-      <label for="comment_field">Comment:</label>
+      </div>
+      <div>  
+        <label for="password_input">Password: </label>
+          <input name="password" type="password" id="password_input">
+      </div>
+      <div>
+        <label for="comment_field">Comment:</label>
           <textarea name="comment" class="form-control" id="comment_field"></textarea>
-    </div>
-    <button type="submit"><i aria-label="Submit" class="fas fa-pencil-alt"></i></button>
-  </form>
-</section>
-</main>
+        </div>
+      <button type="submit"><i aria-label="Submit" class="fas fa-pencil-alt"></i></button>
+    </form>
+  </section>
+  </main>
 
-<footer>
   <!-- Author Info -->
-  <p>This journal was created by me using my own two hands.</p>
-  <address>
-    Contact me at <a href="mailto:me@here.com">me@here.com</a>, or at <a href="tel:+5551234567">(555) 123-4567</a>.
-  </address>
-  <p> &copy; 2019 The Author.</p>
- 
-</footer>
+  <footer>
+    <p>This journal was created by me using my own two hands.</p>
+    <address>
+      Contact me at <a href="mailto:me@here.com">me@here.com</a>, or at <a href="tel:+5551234567">(555) 123-4567</a>.
+    </address>
+    <p> &copy; 2019 The Author.</p>
+  </footer>
 </body>
 </html>
